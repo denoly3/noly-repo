@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device=width, initial-scale=1">
+       <title>my page</title>
+       <style>
+        #mybutton {
+            background-color: black;
+            color: white;
+
+        }
+        body {
+            background-color: lightgray; /* light mode background*/
+            color: black; /* light mode text color*/
+            transition: background-color 0.3s, color 0.3s;
+        }
+        body.dark-mode {
+            background-color: black; /* dark mode background*/
+            color: white; /* dark mode text color*/
+        }
+        #theme-toggle {
+            background-color:green ;
+            color: black;
+        }
+        #change {
+            background-color: blue;
+            color: white;
+        }
+        #hide {
+            background-color: white;
+            color: black;
+        }
+        #show {
+            background-color: blueviolet;
+            color: white;
+        }
+        #demo {
+            font-family: Arial;
+            text-align: justify;
+        }
+        #demo2 {
+            font-family: Arial;
+            text-align: justify;
+        }
+
+       </style>
+    </head>
+    <body>
+        <h1>The Power Of Practice</h1>
+        <p id="demo">Practice is the power tool for learning, improvement, and mastery. Through
+            consistent practice,you can develop new skills,improve performance,build confidence,
+            overcome challenges,and achieve mastery. Practice helps you refine your abilities,
+            reinforce new knowledge,and develop muscle memeory. whether you're learning a new
+            language,improving sport or musical skills,or enhancing professional skills,consistent
+            practice is the key to achieving your goals.
+        </p><button type="button" id="mybutton">Click me</button>
+
+        <h2>Team Work And Collaboration</h2>
+        <p id="demo2">Team work and colaboration are essential skills that can help you achieve common
+            goals, share knowledge, and build strong relationships. By working together effectively, you
+            can learn from each other, share ideas, and gain new perspective, divide tasks and responsibilities
+            to increase productivity, build trust, respect, and strong working relashipships, achieve better outcomes
+            through collective effort. By fostering a collaborative environment, you can unlock th full potential of
+            your team and achieve great things together.
+        </p>
+        <button id="change">change front</button>
+        <button id="hide">hide</button>
+        <button id="show">show</button>
+
+           <Ul class="menu">
+            <li> <a href="">home</a> </li>
+            <li> <a href="#">about</a> </li>
+            <li> <a href="#">our team</a> </li>
+           <li> <a href="#">our mission</a> </li>
+            <li> <a href="contact.html">contact</a> </li>
+
+           </Ul>
+           <button id="theme-toggle">dark mode</button>
+        <script src="script.js"></script>
+    </body>
+</html>
